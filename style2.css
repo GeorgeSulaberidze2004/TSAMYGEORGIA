@@ -239,7 +239,7 @@ html.w-mod-touch * {
     background-attachment: scroll!important;
 }
 div.header_container {
-    color: rgb(217 217 217);
+    color: #1a1a1a;
     background-color: #1a1a1a;
 }
 
@@ -3265,7 +3265,7 @@ figcaption {
 }
 
 .loader_1_background {
-    background-color: var(--black);
+    background-color: #000000;
     position: absolute;
     top: 0%;
     bottom: 0%;
@@ -3751,7 +3751,7 @@ figcaption {
 }
 
 .header_link.w--current {
-    color: var(--black)
+    color: #ffffff
 }
 
 .header_link.projects {
@@ -3778,7 +3778,7 @@ figcaption {
 .header_link {
     grid-column-gap: .625em;
     grid-row-gap: .625em;
-    color: #ffffff;
+    color: #a1a1a1;
     border: 1px solid rgb(255 255 255 / 8%);
     border-radius: 100vw;
     align-items: center;
@@ -7783,10 +7783,16 @@ figcaption {
         display: inline
     }
 
+    div.menu_link{
+        display: flex;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 100vw;
+    }
     .menu_link {
         grid-column-gap: .5em;
         grid-row-gap: .5em;
         padding: .6rem 1em
+         
     }
 
     .menu_link_text {
