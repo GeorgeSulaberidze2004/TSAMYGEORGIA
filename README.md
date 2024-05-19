@@ -1,1 +1,2 @@
-![13131](https://github.com/GeorgeSulaberidze2004/TSAMYGEORGIA/assets/162510336/06e5a302-4fcf-4d9f-8537-bbfdec4cce7d)
+
+![Untitled_Export_V2](https://github.com/GeorgeSulaberidze2004/TSAMYGEORGIA/assets/162510336/490788e4-d2f6-4dcf-b92f-06ec1d5e6e7c)
