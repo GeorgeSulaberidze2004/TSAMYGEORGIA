@@ -2116,7 +2116,7 @@ body {
 }
 
 h1 {
-    color: #d7d7d7;
+    color: #ffffffcf;
     letter-spacing: -.03em;
     margin-top: 0;
     margin-bottom: 0;
@@ -2127,7 +2127,7 @@ h1 {
 }
 
 h2 {
-    color: #c1c1c1;
+    color: #ffffffdb;
     letter-spacing: -.03em;
     margin-top: 0;
     margin-bottom: 0;
@@ -2317,6 +2317,7 @@ figcaption {
 
 .text-color-white {
     color: #ffffff;
+    text-decoration: none;
 }
 
 .text-size-regular {
@@ -2501,7 +2502,8 @@ figcaption {
     margin-right: auto;
     padding-left: 2em;
     padding-right: 2em;
-    position: relative
+    position: relative;
+    margin-bottom: 15px;
 }
 
 .container.is-1260 {
@@ -4523,7 +4525,7 @@ figcaption {
 
 .contact_link {
     z-index: 3;
-    color: var(--black);
+    color: #ffffff4a;
     letter-spacing: -.03em;
     font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 1.75em;
@@ -7962,7 +7964,7 @@ figcaption {
     }
 
     .create_heading {
-        font-size: 24dvw
+        font-size: 21dvw
     }
 
     .service_content {
@@ -7991,11 +7993,11 @@ figcaption {
     }
 
     .produce_heading {
-        font-size: 20dvw
+        font-size: 13dvw
     }
 
     .implement_heading {
-        font-size: 16dvw
+        font-size: 15dvw
     }
 
     .hero-text_1 {
