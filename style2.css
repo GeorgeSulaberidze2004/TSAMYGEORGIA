@@ -4448,7 +4448,9 @@ figcaption {
 }
 
 .ft_name_wrapper,.ft-client_wrapper,.ft-cat_wrapper {
-    overflow: hidden
+    overflow: unset;
+    box-sizing: border-box;
+    margin-block: 10px;
 }
 
 .service_line {
