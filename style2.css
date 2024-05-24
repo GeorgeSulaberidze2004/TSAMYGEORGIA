@@ -2384,7 +2384,7 @@ figcaption {
     font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 3.25em;
     font-weight: 500;
-    line-height: 1
+    line-height: 0.3
 }
 
 .page-wrapper {
@@ -3554,7 +3554,7 @@ figcaption {
 .featured_name.heading-style-h2 {
     font-family: Neuehaasdisplay mediu,sans-serif;
     font-weight: 500;
-    line-height: 1.2
+    line-height: 0.7
 }
 
 .featured_info {
@@ -4448,7 +4448,7 @@ figcaption {
 }
 
 .ft_name_wrapper,.ft-client_wrapper,.ft-cat_wrapper {
-    overflow: hidden
+    overflow: visible
 }
 
 .service_line {
@@ -6853,15 +6853,16 @@ figcaption {
     }
 
     .featured_name.heading-style-h2 {
-        font-size: 2em
+        font-size: 2em;
+        line-height: 0.2;
     }
 
     .featured_info {
-        padding-top: .5em
+        padding-top: 1.2em
     }
 
     .featured_client.heading-style-h6,.featured_category.text-size-small {
-        font-size: .875em
+        font-size: 1.3em
     }
 
     .featured_visual {
