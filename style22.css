@@ -3699,7 +3699,7 @@ figcaption {
 }
 
 .header_container {
-    background-color: #6f6f6f;
+    background-color: #1a1a1a;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -6967,7 +6967,7 @@ figcaption {
     }
 
     .header_link_text {
-        color: var(--black);
+        color: #1a1a1a;
         letter-spacing: -.03em;
         text-transform: uppercase;
         font-family: "bpg_nino_mtavruli",sans-serif;
@@ -7547,8 +7547,9 @@ figcaption {
     }
 
     .heading-style-display {
-        font-size: 4.5em;
+        font-size: 4em;
         color: #ffffff1a;
+        font-weight: bold;
     }
 
     .heading-style-display.text-color-white.next-project {
@@ -7793,6 +7794,10 @@ figcaption {
         margin-left: 1.25em;
         margin-right: 1.25em
     }
+    .header1_link.reveal-circle {
+        margin-left: 1.25em;
+        margin-right: 1.25em
+    }
 
     .menu-icon_line-top {
         background-color: var(--black)
@@ -7811,7 +7816,7 @@ figcaption {
     }
 
     .header_link_text {
-        font-size: 4em;
+        font-size: 3.5em;
         display: inline
     }
 
@@ -7828,7 +7833,9 @@ figcaption {
     }
 
     .menu_link_text {
-        font-size: .875em
+        font-size: .875em;
+        display: contents;
+        
     }
 
     .loader3_content-wrapper {
@@ -8084,7 +8091,8 @@ figcaption {
     }
 
     .contact_heading-1 {
-        font-size: 3.5em
+        font-size: 3em;
+        font-family: "bpg_nino_mtavruli";
     }
 
     .contact_link {
