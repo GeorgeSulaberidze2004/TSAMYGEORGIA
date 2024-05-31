@@ -2184,7 +2184,7 @@ h6 {
 }
 
 p {
-    color: var(--black);
+    color: #fff;
     margin-bottom: 0;
     font-family: Neuehaasdisplay roman,sans-serif;
     font-size: 1em;
@@ -3749,6 +3749,20 @@ figcaption {
     line-height: 1.4;
     text-decoration: none;
     display: flex
+}
+.header1_link {
+    grid-column-gap: 0.225em;
+    grid-row-gap: 0.225em;
+    color: #a1a1a1;
+    border: 1px solid rgb(255 255 255 / 8%);
+    border-radius: 100vw;
+    align-items: center;
+    padding: 0.3em 0.3em;
+    font-family: Neuehaasdisplay roman,sans-serif;
+    font-weight: 100;
+    line-height: 1;
+    text-decoration: none;
+    display: flex;
 }
 
 .header_link.w--current {
@@ -6992,7 +7006,7 @@ figcaption {
     }
 
     .header_link_text {
-        color: var(--black);
+        color: #000;
         letter-spacing: -.03em;
         text-transform: uppercase;
         font-family: Neuehaasdisplay mediu,sans-serif;
@@ -7005,7 +7019,7 @@ figcaption {
         color: #6f6f6f;
         letter-spacing: -.03em;
         text-transform: uppercase;
-        font-family: Neuehaasdisplay mediu,sans-serif;
+        font-family:Neuehaasdisplay mediu,sans-serif;
         font-size: 2.5em;
         font-weight: 500;
         line-height: 1.1;
@@ -7812,6 +7826,10 @@ figcaption {
     }
 
     .header_link.reveal-circle {
+        margin-left: 1.25em;
+        margin-right: 1.25em
+    }
+    .header1_link.reveal-circle {
         margin-left: 1.25em;
         margin-right: 1.25em
     }

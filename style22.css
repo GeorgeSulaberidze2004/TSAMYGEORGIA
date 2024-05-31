@@ -2184,7 +2184,7 @@ h6 {
 }
 
 p {
-    color: var(--black);
+    color: #fff;
     margin-bottom: 0;
     font-family: "bpg_nino_mtavruli",sans-serif;
     font-size: 1em;
@@ -3443,7 +3443,7 @@ figcaption {
 
 .footer-shape-2 {
     z-index: 3;
-    background-color: #ff9831;
+    background-color: #cfcfcf;
     background-image: linear-gradient(17deg,var(--sundown-orange)45%,var(--orange));
     filter: blur(40px);
     border-radius: 999em;
@@ -3791,20 +3791,19 @@ figcaption {
     display: flex;
 }
 .header1_link {
-    grid-column-gap: .625em;
-    grid-row-gap: .625em;
+    grid-column-gap: 0.225em;
+    grid-row-gap: 0.225em;
     color: #a1a1a1;
     border: 1px solid rgb(255 255 255 / 8%);
     border-radius: 100vw;
     align-items: center;
-    padding: .625em 1.5em;
-    font-family: "bpg_nino_mtavruli",sans-serif;
-    font-weight: 400;
-    line-height: 1.4;
+    padding: 0.3em 0.3em;
+    font-family: Neuehaasdisplay roman,sans-serif;
+    font-weight: 100;
+    line-height: 1;
     text-decoration: none;
     display: flex;
 }
-
 .menu_link.w--current {
     color: transparent
 }
@@ -6943,6 +6942,19 @@ figcaption {
         font-size: 1em;
         display: block
     }
+    .header1_link.reveal-circle {
+        grid-column-gap: .5em;
+        grid-row-gap: .5em;
+        text-align: right;
+        border-style: none;
+        border-radius: 0;
+        justify-content: flex-end;
+        margin-left: 2em;
+        margin-right: 2em;
+        padding: 0;
+        font-size: 1em;
+        display: block
+    }
 
     .header_link.projects {
         grid-column-gap: 0em;
@@ -7817,7 +7829,9 @@ figcaption {
 
     .header_link_text {
         font-size: 3.5em;
-        display: inline
+        display: inline;
+        font-family: "bpg_nino_mtavruli";
+        font-weight: bold;
     }
 
     div.menu_link{
