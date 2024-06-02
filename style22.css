@@ -2209,7 +2209,7 @@ ul,ol {
 li {
     color: var(--black);
     margin-bottom: .25rem;
-    font-family: 'bpg_nino_mtavruli';
+    font-family: "bpg_nino_mtavruli",sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.4
@@ -3785,7 +3785,7 @@ figcaption {
     align-items: center;
     padding: .625em 1.5em;
     
-    font-weight: 500;
+    font-weight: 400;
     line-height: 1.4;
     text-decoration: none;
     display: flex;
@@ -7559,7 +7559,7 @@ figcaption {
     }
 
     .heading-style-display {
-        font-size: 3em;
+        font-size: 4em;
         color: #ffffff1a;
         font-weight: bold;
     }
@@ -7829,8 +7829,7 @@ figcaption {
 
     .header_link_text {
         font-size: 3.5em;
-        display: inline
-        font-weight: bold;
+        display: inline;
         
     }
 
@@ -8105,7 +8104,7 @@ figcaption {
     }
 
     .contact_heading-1 {
-        font-size: 2.5em;
+        font-size: 3em;
         
     }
 
