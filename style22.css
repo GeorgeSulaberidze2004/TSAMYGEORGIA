@@ -7829,7 +7829,8 @@ figcaption {
 
     .header_link_text {
         font-size: 3.5em;
-        display: inline;
+        display: inline
+        font-weight: bold;
         
     }
 
