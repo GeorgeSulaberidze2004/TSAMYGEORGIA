@@ -3869,6 +3869,20 @@ figcaption {
   text-decoration: none;
   display: flex
 }
+.header1_link {
+  grid-column-gap: 0.225em;
+  grid-row-gap: 0.225em;
+  color: #f3f3f3;
+  border: 1px solid rgb(255 255 255 / 8%);
+  border-radius: 100vw;
+  align-items: center;
+  padding: 0.3em 0.3em;
+  font-family: Neuehaasdisplay2 roman2,sans-serif;
+  font-weight: 100;
+  line-height: 1;
+  text-decoration: none;
+  display: flex;
+}
 
 .header_link.w--current {
   color: var(--black)
@@ -3894,6 +3908,14 @@ figcaption {
   height: .5em;
   display: none
 }
+.header1_link_dot {
+  background-color: var(--sundown-orange);
+  border-radius: 50%;
+  width: .5em;
+  height: .5em;
+  display: none
+}
+
 
 .menu_link {
   grid-column-gap: .625em;
@@ -7055,6 +7077,19 @@ figcaption {
     font-size: 1em;
     display: block
   }
+  .header1_link.reveal-circle {
+      grid-column-gap: .5em;
+      grid-row-gap: .5em;
+      text-align: right;
+      border-style: none;
+      border-radius: 0;
+      justify-content: flex-end;
+      margin-left: 2em;
+      margin-right: 2em;
+      padding: 0;
+      font-size: 1em;
+      display: block;
+  }
 
   .header_link.projects {
     grid-column-gap: 0em;
@@ -7088,6 +7123,16 @@ figcaption {
     font-weight: 500;
     line-height: 1.1;
     display: inline
+  }
+  .header1_link_text {
+      color: #6f6f6f;
+      letter-spacing: -.03em;
+      text-transform: uppercase;
+      font-family: "bpg_nino_mtavruli",sans-serif;
+      font-size: 2.5em;
+      font-weight: bold;
+      line-height: 1.1;
+      display: table-row;
   }
 
   .menu_link {
@@ -7894,7 +7939,10 @@ figcaption {
     margin-left: 1.25em;
     margin-right: 1.25em
   }
-
+  .header1_link.reveal-circle {
+      margin-left: 1.25em;
+      margin-right: 1.25em
+  }
   .menu-icon_line-top {
     background-color: var(--black)
   }
