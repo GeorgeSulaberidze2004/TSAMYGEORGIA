@@ -7830,7 +7830,7 @@ figcaption {
     .header_link_text {
         font-size: 3.5em;
         display: inline;
-        font-weight: 500;
+        font-weight: bold;
     }
 
     div.menu_link{
