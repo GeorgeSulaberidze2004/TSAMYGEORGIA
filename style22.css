@@ -2209,7 +2209,7 @@ ul,ol {
 li {
     color: var(--black);
     margin-bottom: .25rem;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: 'bpg_nino_mtavruli';
     font-size: 1em;
     font-weight: 400;
     line-height: 1.4
