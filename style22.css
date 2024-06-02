@@ -3744,7 +3744,7 @@ figcaption {
     border-radius: 100vw;
     align-items: center;
     padding: .625em 1.5em;
-    font-family: Neuehaasdisplay roman,sans-serif;
+    
     font-weight: 400;
     line-height: 1.4;
     text-decoration: none;
@@ -3784,7 +3784,7 @@ figcaption {
     border-radius: 100vw;
     align-items: center;
     padding: .625em 1.5em;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    
     font-weight: 400;
     line-height: 1.4;
     text-decoration: none;
@@ -6982,7 +6982,7 @@ figcaption {
         color: #1a1a1a;
         letter-spacing: -.03em;
         text-transform: uppercase;
-        font-family: 'bpg_nino_mtavruli';
+        
         font-size: 3em;
         font-weight: 500;
         line-height: 1.1;
