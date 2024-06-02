@@ -6993,7 +6993,7 @@ figcaption {
         color: #6f6f6f;
         letter-spacing: -.03em;
         text-transform: uppercase;
-        font-family:"bpg_nino_mtavruli",sans-serif;
+        font-family:'bpg_nino_mtavruli';
         font-size: 2.5em;
         font-weight: 500;
         line-height: 1.1;
