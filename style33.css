@@ -7981,7 +7981,9 @@ html {
   
     .header_link_text {
       font-size: 3em;
-      display: inline
+      display: inline;
+      font-weight: bold;
+      
     }
   
     .menu_link {

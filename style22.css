@@ -7559,7 +7559,7 @@ figcaption {
     }
 
     .heading-style-display {
-        font-size: 4em;
+        font-size: 3.3em;
         color: #ffffff1a;
         font-weight: bold;
     }
@@ -7830,7 +7830,7 @@ figcaption {
     .header_link_text {
         font-size: 3.5em;
         display: inline;
-        
+        font-weight: 500;
     }
 
     div.menu_link{
@@ -8104,7 +8104,7 @@ figcaption {
     }
 
     .contact_heading-1 {
-        font-size: 3em;
+        font-size: 2.5em;
         
     }
 
