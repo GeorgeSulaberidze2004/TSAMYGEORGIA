@@ -2194,7 +2194,7 @@ p {
 
 a {
     color: var(--sundown-orange);
-    font-family: 'bpg_nino_mtavruli_bold',sans-serif;
+    font-family: "bpg_nino_mtavruli",sans-serif;
     font-size: 1em;
     font-weight: 500;
     line-height: 1.4
@@ -7559,7 +7559,7 @@ figcaption {
     }
 
     .heading-style-display {
-        font-size: 3em;
+        font-size: 3.3em;
         color: #ffffff1a;
         font-weight: bold;
     }
@@ -7827,12 +7827,11 @@ figcaption {
         background-color: var(--off-white)
     }
 
-   .header_link_text {
-    font-size: 3.5em;
-    display: inline;
-    font-family: 'bpg_nino_mtavruli';
-    font-weight: 400;
-}
+    .header_link_text {
+        font-size: 3.5em;
+        display: inline;
+        font-weight: 500;
+    }
 
     div.menu_link{
         display: flex;
@@ -8352,16 +8351,16 @@ figcaption {
 
 @font-face {
     font-family: 'bpg_nino_mtavruli';
-    src: url('bpg_nino_mtavruli_bold.ttf') format('woff');
-    font-weight: 400;
+    src: url('bpg_arial_2009.ttf') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: 'bpg_nino_mtavruli_bold';
-    src: url('bpg_nino_mtavruli_bold.ttf') format('woff');
-    font-weight: 500;
+    src: url('bpg_arial_2009.ttf'woff');
+    font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
