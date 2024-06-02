@@ -1,7 +1,7 @@
 html {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    font-family: "bpg_nino_mtavruli"
+    font-family: sans-serif
 }
 
 body {
@@ -169,8 +169,8 @@ td,th {
 }
 
 @font-face {
-    font-family: "bpg_nino_mtavruli";
-    src: url(bpg_nino_mtavruli_bold.ttf)format("truetype");
+    font-family: webflow-icons;
+    src: url(data:application/x-font-ttf;charset=utf-8;base64,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)format("truetype");
     font-weight: 400;
     font-style: normal
 }
@@ -184,7 +184,7 @@ td,th {
     font-style: normal;
     font-weight: 400;
     line-height: 1;
-    font-family: "bpg_nino_mtavruli"!important
+    font-family: webflow-icons!important
 }
 
 .w-icon-slider-right:before {
@@ -224,7 +224,7 @@ body {
     background-color: #fff;
     min-height: 100%;
     margin: 0;
-    font-family: "bpg_nino_mtavruli" ,sans-serif;
+    font-family: Arial,sans-serif;
     font-size: 14px;
     line-height: 20px
 }
@@ -2120,7 +2120,7 @@ h1 {
     letter-spacing: -.03em;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 4.25em;
     font-weight: 500;
     line-height: 1
@@ -2131,10 +2131,10 @@ h2 {
     letter-spacing: -.03em;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 3.25em;
     font-weight: 500;
-    line-height: 1.3
+    line-height: 1
 }
 
 h3 {
@@ -2142,7 +2142,7 @@ h3 {
     letter-spacing: -.03em;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 2.5em;
     font-weight: 500;
     line-height: 1
@@ -2153,7 +2153,7 @@ h4 {
     letter-spacing: -.03em;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 1.75em;
     font-weight: 500;
     line-height: 1.1
@@ -2164,7 +2164,7 @@ h5 {
     letter-spacing: -.03em;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 1.5em;
     font-weight: 500;
     line-height: 1
@@ -2176,7 +2176,7 @@ h6 {
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: .5em;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay roman,sans-serif;
     font-size: .875em;
     font-weight: 400;
     line-height: 1.2;
@@ -2186,7 +2186,7 @@ h6 {
 p {
     color: #fff;
     margin-bottom: 0;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay roman,sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.4
@@ -2194,7 +2194,7 @@ p {
 
 a {
     color: var(--sundown-orange);
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 1em;
     font-weight: 500;
     line-height: 1.4
@@ -2209,7 +2209,7 @@ ul,ol {
 li {
     color: var(--black);
     margin-bottom: .25rem;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay roman,sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.4
@@ -2230,7 +2230,7 @@ blockquote {
     border-left: .25rem solid #e2e2e2;
     margin-bottom: 0;
     padding: 0 1.25rem;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 1.25em;
     font-weight: 500;
     line-height: 1.4
@@ -2296,7 +2296,7 @@ figcaption {
 
 .heading-style-h3 {
     letter-spacing: -.03em;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 2.5em;
     font-weight: 500;
     line-height: 1
@@ -2304,7 +2304,7 @@ figcaption {
 
 .heading-style-h1 {
     color: #e4e4e4;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 4.25em;
     font-weight: 500;
     line-height: 1
@@ -2332,7 +2332,7 @@ figcaption {
 
 .heading-style-h4 {
     letter-spacing: -.03em;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 1.75em;
     font-weight: 500;
     line-height: 1;
@@ -2358,7 +2358,7 @@ figcaption {
 .heading-style-h6 {
     letter-spacing: .02em;
     text-transform: uppercase;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay roman,sans-serif;
     font-size: .875em;
     font-weight: 400;
     line-height: 1.2
@@ -2563,10 +2563,10 @@ figcaption {
     z-index: 1;
     letter-spacing: -.03em;
     text-transform: uppercase;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 10em;
     font-weight: 500;
-    line-height: .98;
+    line-height: 1.1;
     position: relative
 }
 
@@ -2688,7 +2688,7 @@ figcaption {
 .marquee_text {
     letter-spacing: -.03em;
     text-transform: uppercase;
-    font-family:"bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 8.75em;
     font-weight: 500
 }
@@ -3443,7 +3443,7 @@ figcaption {
 
 .footer-shape-2 {
     z-index: 3;
-    background-color: #cfcfcf;
+    background-color: #ff9831;
     background-image: linear-gradient(17deg,var(--sundown-orange)45%,var(--orange));
     filter: blur(40px);
     border-radius: 999em;
@@ -3552,7 +3552,7 @@ figcaption {
 }
 
 .featured_name.heading-style-h2 {
-    font-family: Neuehaasdisplay mediu,sans-serif;
+    font-family: Neuehaasdisplay2 mediu,sans-serif;
     font-weight: 500;
     line-height: 0.7
 }
@@ -3699,7 +3699,7 @@ figcaption {
 }
 
 .header_container {
-    background-color: #1a1a1a;
+    background-color: #6f6f6f;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -3744,11 +3744,25 @@ figcaption {
     border-radius: 100vw;
     align-items: center;
     padding: .625em 1.5em;
-    
+    font-family: Neuehaasdisplay roman,sans-serif;
     font-weight: 400;
     line-height: 1.4;
     text-decoration: none;
     display: flex
+}
+.header1_link {
+    grid-column-gap: 0.225em;
+    grid-row-gap: 0.225em;
+    color: #a1a1a1;
+    border: 1px solid rgb(255 255 255 / 8%);
+    border-radius: 100vw;
+    align-items: center;
+    padding: 0.3em 0.3em;
+    font-family: Neuehaasdisplay roman,sans-serif;
+    font-weight: 100;
+    line-height: 1;
+    text-decoration: none;
+    display: flex;
 }
 
 .header_link.w--current {
@@ -3767,8 +3781,18 @@ figcaption {
 .header_link_text {
     text-decoration: none
 }
+.header1_link_text {
+    text-decoration: none
+}
 
 .header_link_dot {
+    background-color: var(--sundown-orange);
+    border-radius: 50%;
+    width: .5em;
+    height: .5em;
+    display: none
+}
+.header1_link_dot {
     background-color: var(--sundown-orange);
     border-radius: 50%;
     width: .5em;
@@ -3784,7 +3808,7 @@ figcaption {
     border-radius: 100vw;
     align-items: center;
     padding: .625em 1.5em;
-    
+    font-family: Neuehaasdisplay roman,sans-serif;
     font-weight: 400;
     line-height: 1.4;
     text-decoration: none;
@@ -3810,7 +3834,7 @@ figcaption {
 
 .menu_link_text {
     text-decoration: none;
-    font-family: 'bpg_nino_mtavruli';
+    font-family: Neuehaasdisplay roman;
 }
 
 .header_overlay {
@@ -4520,7 +4544,7 @@ figcaption {
 .contact_heading-1 {
     text-transform: uppercase;
     font-size: 7em;
-    line-height: 1.2;
+    line-height: 1.1;
     display: inline-block;
     position: relative
 }
@@ -5775,7 +5799,7 @@ figcaption {
 .footer_menu_link {
     color: #c8c8c8;
     letter-spacing: -.03em;
-    font-family: "bpg_nino_mtavruli",sans-serif;
+    font-family: Neuehaasdisplay mediu,sans-serif;
     font-size: 2em;
     font-weight: 500;
     line-height: 1;
@@ -6869,7 +6893,6 @@ figcaption {
     .featured_name.heading-style-h2 {
         font-size: 2.4em;
         line-height: 0.2;
-        font-family: 600;
     }
 
     .featured_info {
@@ -6918,12 +6941,17 @@ figcaption {
         margin-right: auto;
         padding-top: 3.75em;
         padding-bottom: 3.75em;
-        font-family: 'bpg_nino_mtavruli' ,sans-serif;
+        font-family: Neuehaasdisplay mediu,sans-serif;
         font-weight: 500;
         position: absolute
     }
 
     .header_link {
+        border-style: none;
+        justify-content: flex-end;
+        padding: 0 1.25em
+    }
+    .header1_link {
         border-style: none;
         justify-content: flex-end;
         padding: 0 1.25em
@@ -6979,27 +7007,25 @@ figcaption {
     }
 
     .header_link_text {
-        color: #1a1a1a;
+        color: #000;
         letter-spacing: -.03em;
         text-transform: uppercase;
-        
-        font-size: 3em;
+        font-family: Neuehaasdisplay mediu,sans-serif;
+        font-size: 6em;
         font-weight: 500;
         line-height: 1.1;
         display: inline
     }
-    
     .header1_link_text {
         color: #6f6f6f;
         letter-spacing: -.03em;
         text-transform: uppercase;
-        font-family:"bpg_nino_mtavruli",sans-serif;
+        font-family: Neuehaasdisplay2 mediu ,sans-serif;
         font-size: 2.5em;
         font-weight: 500;
         line-height: 1.1;
         display: table-row;
     }
-
 
     .menu_link {
         grid-column-gap: .625rem;
@@ -7016,7 +7042,6 @@ figcaption {
     .menu_link_text {
         color: #ffffff;
         font-size: 1em
-        
     }
 
     .menu_link_text.project {
@@ -7561,7 +7586,6 @@ figcaption {
     .heading-style-display {
         font-size: 3.3em;
         color: #ffffff1a;
-        font-weight: bold;
     }
 
     .heading-style-display.text-color-white.next-project {
@@ -7829,8 +7853,7 @@ figcaption {
 
     .header_link_text {
         font-size: 3.5em;
-        display: inline;
-        font-weight: 500;
+        display: inline
     }
 
     div.menu_link{
@@ -7846,9 +7869,7 @@ figcaption {
     }
 
     .menu_link_text {
-        font-size: .875em;
-        display: contents;
-        
+        font-size: .875em
     }
 
     .loader3_content-wrapper {
@@ -8104,8 +8125,7 @@ figcaption {
     }
 
     .contact_heading-1 {
-        font-size: 2.5em;
-        
+        font-size: 2.5em
     }
 
     .contact_link {
@@ -8348,21 +8368,50 @@ figcaption {
         grid-area:1/1/2/13
     }
 }
-
 @font-face {
-    font-family: 'bpg_nino_mtavruli';
-    src: url('bpg_arial_2009.ttf') format('woff');
+    font-family: 'Neuehaasdisplay';
+    src: url('bpg_nino_mtavruli_bold.ttf') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'bpg_nino_mtavruli_bold';
-    src: url('bpg_arial_2009.ttf'woff');
+    font-family: 'Neuehaasdisplay mediu';
+    src: url('bpg_nino_mtavruli_bold.ttf') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neuehaasdisplay roman';
+    src: url('bpg_nino_mtavruli_bold.ttf') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Neuehaasdisplay1';
+    src: url('https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c4_NeueHaasDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'Neuehaasdisplay2 mediu';
+    src: url('https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15bf_NeueHaasDisplay-Mediu.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neuehaasdisplay2 roman';
+    src: url('https://uploads-ssl.webflow.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c0_NeueHaasDisplay-Roman.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
