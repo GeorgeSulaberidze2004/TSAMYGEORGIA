@@ -7827,11 +7827,12 @@ figcaption {
         background-color: var(--off-white)
     }
 
-    .header_link_text {
-        font-size: 3.5em;
-        display: inline;
-        
-    }
+   .header_link_text {
+    font-size: 3.5em;
+    display: inline;
+    font-family: 'bpg_nino_mtavruli';
+    font-weight: 400;
+}
 
     div.menu_link{
         display: flex;
